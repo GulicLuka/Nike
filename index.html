@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nike</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="icon" href="favicon-16x16.ico" type="image/icon"> 
+</head>
+<body>
+
+    <nav>
+        <!--<ul>
+            <li><a class="active" href="#one">Domov</a></li>
+            <li><a href="#two">Img</a></li>
+            <li><a href="#three">Svg</a></li>
+            <li><a href="#four">Bezier</a></li>
+        </ul>-->
+
+
+
+        <div class="okoli">
+            <a class="element" href="#one">
+                <div class="navCon">
+                    <p>Domov</p>
+                </div>
+                <div class="navConS">
+                    <img src="img/house.png" draggable="false" ondragstart="return false;"/>
+                </div>
+            </a>
+            <a class="element" href="#two">
+                <div class="navCon">
+                    <p>Img</p>
+                </div>
+                <div class="navConS">
+                    <img src="img/camera.png" draggable="false" ondragstart="return false;"/>
+                </div>
+            </a>
+            <a class="element" href="#three">
+                <div class="navCon">
+                    <p>Svg</p>
+                </div>
+                <div class="navConS">
+                    <img src="img/svgIcon.png" draggable="false" ondragstart="return false;"/>
+                </div>
+            </a>
+            <a class="element" href="#four">
+                <div class="navCon">
+                    <p>Bezier</p>
+                </div>
+                <div class="navConS">
+                    <img src="img/bezier.png" draggable="false" ondragstart="return false;"/>
+                </div>
+            </a>
+        </div>
+    </nav>
+   
+
+
+
+
+
+    <div class="wrapper">
+      
+
+       
+
+
+
+
+       
+
+
+        <div class="container">
+
+            <div class="screen one" id="one">
+				<div class="content">
+					<div class="box">
+                        <h1>Slika</h1>
+                        <span>Za več informacij kliknite izvedi več</span>
+                        <button><a href="#two">Izvedi več</a></button>
+					</div>
+					<div class="box">
+                        <h1>SVG</h1>
+                        <span>Za več informacij kliknite izvedi več</span>
+                        <button><a href="#three">Izvedi več</a></button>
+					</div>
+					<div class="box">
+                        <h1>Bezier</h1>
+                        <span>Za več informacij kliknite izvedi več</span>
+                        <button><a href="#four">Izvedi več</a></button>
+					</div>
+				</div>
+            </div>
+            
+            <div class="screen two" id="two">  
+                <div class="naslov ena">
+                    <span>Slika</span>
+                </div>  
+                <div class="img">
+                    <img src="img/Nike-Logo.png"  draggable="false" ondragstart="return false;"/>
+                </div> 
+            </div>
+
+            <div class="screen three" id="three">
+                <div class="naslov dva">
+                    <span>SVG</span>
+                </div>
+                <div class="svgContent">
+                    <h1 style="font-size:2em;padding-bottom:5%;">Izberi barve</h1>
+                    <div class="vnos">
+                        <span>Barva glavnega dela</span>
+                        <input value="#67e140" id="main" class="jscolor {width:243, height:150, position:'right', borderColor:'#FFF', insetColor:'#FFF', backgroundColor:'#666'}">
+                    </div>
+                    <div class="vnos">
+                        <span>Barva gume</span>
+                        <input value="#d6d2c7" id="guma" class="jscolor {width:243, height:150, position:'right', borderColor:'#FFF', insetColor:'#FFF', backgroundColor:'#666'}">
+                    </div>
+                    <div class="vnos">
+                        <span>Barva podplata</span>
+                        <input value="#323429" id="pod" class="jscolor {width:243, height:150, position:'right',
+                        borderColor:'#FFF', insetColor:'#FFF', backgroundColor:'#666'}">
+                    </div>
+                    <div class="vnos">
+                        <span>Barva logota</span>
+                        <input value="#192b13" id="logotip" class="jscolor {width:243, height:150, position:'right', borderColor:'#FFF', insetColor:'#FFF', backgroundColor:'#666'}">
+                    </div>
+                    <div class="vnos">
+                        <span>Barva obrobe</span>
+                        <input value="#99e38c" id="obroba" class="jscolor {width:243, height:150, position:'right', borderColor:'#FFF', insetColor:'#FFF', backgroundColor:'#666'}">
+                    </div>
+                    <div class="vnos">
+                        <span>Barva zadnjega dela</span>
+                        <input value="#59d82f" id="zadek" class="jscolor {width:243, height:150, position:'right', borderColor:'#FFF', insetColor:'#FFF', backgroundColor:'#666'}">
+                    </div>
+                    <button onclick="myFunction()">Potrdi barvo</button>
+                </div>
+                <div class="svgContent">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                    
+                    width="80%" height="auto"
+                    viewBox="0 0 826 550">
+                 <path id="Unnamed"
+                       fill="#67e140" stroke="black" stroke-width="1"
+                       d="M 472.67,195.00M 73.00,309.33
+                          C 138.33,303.33 204.33,289.67 225.00,279.67
+                            353.67,243.33 373.67,221.00 470.67,183.00
+                            479.67,176.67 521.84,213.12 519.82,213.82
+                            550.00,236.18 543.09,240.91 588.18,254.73
+                            608.36,259.64 633.09,252.73 647.64,238.55
+                            666.55,222.00 682.91,208.00 716.55,210.36
+                            716.55,210.36 715.45,226.55 715.45,226.55
+                            713.56,225.29 708.75,229.91 710.00,230.73
+                            705.45,234.73 725.82,292.91 722.91,297.82
+                            724.73,313.27 688.55,342.18 668.55,357.45
+                            635.09,356.00 570.55,351.27 537.45,351.27
+                            471.82,352.91 481.82,354.36 449.45,364.18
+                            413.27,377.27 335.64,394.18 325.82,394.55
+                            278.55,399.82 193.64,395.27 180.36,392.73
+                            126.36,387.45 64.36,373.64 46.85,355.88
+                            45.48,355.26 48.16,319.62 49.33,320.15
+                            54.67,311.33 59.00,312.33 73.00,309.33 Z" />
+
+                            <path id="gum"
+        fill="#d6d2c7" stroke="black" stroke-width="1"
+        d="M 102.75,379.50
+           C 117.00,384.50 181.12,395.12 221.62,396.00
+             251.62,396.62 259.38,397.62 298.75,396.62
+             329.12,397.00 378.25,384.12 398.75,379.12
+             419.00,375.12 473.00,354.38 490.36,353.45
+             503.00,352.00 534.75,350.00 588.00,353.27
+             588.00,353.27 668.55,357.82 668.55,357.82
+             695.09,357.82 719.27,358.91 729.09,352.91
+             736.91,363.45 778.18,372.91 774.00,377.64
+             733.64,407.27 717.27,417.45 667.45,430.18
+             637.82,434.91 606.36,438.36 566.36,439.27
+             519.45,440.91 490.55,437.64 437.45,441.45
+             403.64,443.82 323.09,455.64 300.36,451.45
+             200.36,441.64 148.18,428.18 123.82,414.55
+             74.55,391.09 61.82,382.55 46.73,368.00
+             46.91,366.73 44.55,363.82 46.18,355.45
+             50.38,360.25 67.88,371.50 102.75,379.50 Z" />
+
+             <path id="logo"
+        fill="#192b13" stroke="black" stroke-width="1"
+        d="M 328.50,334.75
+           C 333.50,352.75 353.50,359.50 375.75,354.00
+             391.50,351.75 601.50,285.00 610.50,285.25
+             610.50,285.25 413.00,382.00 413.00,382.00
+             407.75,385.00 362.50,419.00 313.25,405.75
+             280.25,386.00 296.25,329.25 334.75,295.25
+             326.00,316.25 327.25,320.25 328.50,334.75 Z" />
+
+             <path id="podplat"
+             fill="#323429" stroke="black" stroke-width="1"
+             d="M 46.25,368.00
+                C 57.50,381.75 106.00,407.50 115.25,410.00
+                  151.50,433.00 226.50,442.25 240.75,444.75
+                  296.50,451.00 299.00,455.75 374.00,448.50
+                  393.25,446.00 452.50,438.75 493.25,439.25
+                  546.50,440.25 581.50,439.75 598.50,438.25
+                  616.50,438.75 684.00,429.50 700.50,420.00
+                  731.75,410.75 755.25,391.00 774.00,378.00
+                  776.00,385.75 772.00,387.50 763.75,393.00
+                  704.00,434.75 641.75,440.25 626.75,442.25
+                  579.75,448.50 478.25,443.25 449.75,446.00
+                  431.75,447.00 389.00,448.50 370.25,453.50
+                  331.25,456.00 295.25,455.25 254.50,451.75
+                  210.25,447.25 158.00,436.00 122.50,420.00
+                  98.00,408.75 61.25,392.50 42.25,369.50
+                  41.25,354.25 40.50,348.25 42.50,335.25
+                  43.50,328.50 45.01,319.89 49.00,320.25
+                  47.25,330.00 44.25,361.25 46.25,368.00 Z" />
+
+                  <path id="rob"
+                  fill="#99e38c" stroke="black" stroke-width="1"
+        d="M 691.25,211.75
+           C 683.25,213.50 667.50,219.50 656.00,231.25
+             636.50,246.50 622.25,262.75 583.75,253.00
+             550.50,245.00 533.50,224.75 521.00,214.50
+             513.25,206.00 489.50,186.25 473.50,181.50
+             476.00,177.25 481.00,175.50 485.00,175.25
+             488.00,175.50 512.00,183.75 523.75,196.75
+             566.75,236.50 576.00,241.00 605.50,242.25
+             622.00,241.50 653.75,219.00 667.00,208.00
+             682.75,196.25 704.75,191.25 720.25,195.00
+             720.25,195.00 719.25,209.50 719.25,209.50
+             716.25,210.25 703.50,208.75 691.25,211.75 Z" />
+
+             <path id="zadnji"
+             fill="#59d82f" stroke="black" stroke-width="1"
+             d="M 714.00,316.25
+                C 723.25,305.50 724.00,301.00 722.25,290.00
+                  721.25,283.75 708.39,234.53 709.25,234.75
+                  708.75,232.50 711.25,225.75 715.75,226.25
+                  717.75,254.75 732.00,303.00 729.25,329.25
+                  730.75,334.25 725.50,346.75 728.00,353.00
+                  722.00,358.50 684.00,359.25 669.50,357.50
+                  695.25,336.50 700.50,331.00 714.00,316.25 Z" />
+               </svg>
+                </div>   
+            </div>
+
+            <div class="screen four" id="four">
+                    <div class="naslov tri">
+                            <span>Bezier curve</span>
+                    </div>
+                    <div id="bezier">
+                            <canvas id="myCanvas"></canvas>
+                    </div>  
+            </div>
+        </div>        
+    </div>
+    <script src="javascript/bezierNike.js">
+    </script>
+    <script src="javascript/jscolor.js">
+    </script>
+    <script>
+     function myFunction() {
+            color1 = document.getElementById('main').value
+            fillElement = document.getElementById('Unnamed');
+            color1 = "#"+color1;
+            fillElement.style.fill = color1;
+
+            color2 = document.getElementById('guma').value
+            fillElement = document.getElementById('gum');
+            color2 = "#"+color2;
+            fillElement.style.fill = color2;
+
+            color3 = document.getElementById('pod').value
+            fillElement = document.getElementById('podplat');
+            color3 = "#"+color3;
+            fillElement.style.fill = color3;
+
+            color4 = document.getElementById('logotip').value
+            fillElement = document.getElementById('logo');
+            color4 = "#"+color4;
+            fillElement.style.fill = color4;
+
+            color5 = document.getElementById('obroba').value
+            fillElement = document.getElementById('rob');
+            color5 = "#"+color5;
+            fillElement.style.fill = color5;
+
+            color6 = document.getElementById('zadek').value
+            fillElement = document.getElementById('zadnji');
+            color6 = "#"+color6;
+            fillElement.style.fill = color6;
+        }
+    </script>
+</body>
+</html>
+
+<!--width="11.4722in" height="7.63889in"-->
